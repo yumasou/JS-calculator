@@ -1,0 +1,86 @@
+body{
+    background-color:whitesmoke;
+    margin:0;
+    padding: 0;
+    height: 600px;
+    width: 500px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.calculator{
+    top:10%;
+    left: 30%;
+    box-shadow: 1px 2px 7px 7px rgba(0, 0, 255, .2);
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    background-color: gray;
+}
+
+.input{
+    box-shadow: 1px 2px 7px 7px rgba(148, 148, 158, 0.2);
+    margin:40px 6%;
+    width:88%;
+    height:50px;
+    line-height:50px;
+    position: absolute;
+    background-color: whitesmoke;
+}
+.button{
+    box-shadow: 1px 2px 7px 7px rgba(148, 148, 158, 0.2);
+    width:88%;
+    background-color:azure;
+    height: 70%;
+    position: absolute;
+    margin:120px 6%;
+
+}
+.operator{
+    margin:auto 3%;
+}
+.operator div{    
+    display: inline-block; 
+  border: 1px solid #bbb;
+  border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 2px;
+  cursor: pointer;
+  background-color: #ddd;
+ 
+}
+.number{
+    margin-left: 15px;
+}
+.number div{
+    display: inline-block;
+    border:1px solid #bbb;
+    border-radius: 1px;
+    width:80px;
+    cursor:pointer;
+    text-align: center;
+    padding:10px;
+    margin:  20px 4px 10px 2px;
+}
+.pannel{
+    display: inline-block;
+}
+.equal{
+    margin-top: 20px;
+    display: inline-block;
+    border:1px solid #bbb;
+    border-radius: 1px;
+    width:17%;
+    cursor:pointer;
+    vertical-align: top;
+    text-align: center;
+    padding:115px 10px;
+}
+.number div:hover{
+    border-style: outset;
+}
+.operator div:hover{
+    border-style:outset;
+}
